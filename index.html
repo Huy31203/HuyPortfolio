@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Huy's Porfolio Website">
+    <meta name="author" content="Huy(Lolis)">
+    <meta property="og:image" content="img/thumbnail.jpg" />
+    <link rel="icon" type="image/x-icon" href="img/web-icon.svg">
+    <title>Huy Portfolio Website</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+        <button onclick="topFunction()" class="backontop" title="Go to top">
+            <i id="backontop-logo" class="fa fa-angle-up fa-2xl"></i>
+        </button>
+    </header>
+
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__tittle section__title--intro">
+            Hi, I am <strong>Nguyen Phuc Huy</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"> IT student</p>
+        <img src="img/huy-01.jpg" alt="Huy picture" class="intro__img">
+    </section>
+
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Under development</h3>
+                <p>It's still under development
+                until I graduated</p>
+            </div> <!-- /service -->
+
+            <div class="service">
+                <h3>Under development</h3>
+                <p>It's still under development
+                until I graduated</p>
+            </div> <!-- /service -->
+
+            <div class="service">
+                <h3>Under development</h3>
+                <p>It's still under development 
+                until I graduated</p>
+            </div> <!-- /service -->
+
+        </div> <!-- /services -->
+
+        <a href="#work" class="btn">My Work</a> <!-- btn: button -->
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Saigon University IT Sophomore</p>
+
+        <div class="about-me__body">
+            <p>
+                I'm 19, single. I live in Ho Chi Minh city, Vietnam.
+                I studying at Saigon University(2nd-year).
+                <br>
+                My favorite is drawing,
+                coding, playing game and watch LN, manga, anime.
+            </p>
+        </div>
+
+        <img src="img/huy-02.jpg" alt="Huy picture" width class="about-me__img">
+    </section>
+
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- portfolio item 01 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-01.png" alt="" class="portfolio__img">
+            </a>
+
+             <!-- portfolio item 02 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/portfolio-02.png" alt="" class="portfolio__img">
+            </a>
+
+             <!-- portfolio item 03 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/portfolio-03.png" alt="" class="portfolio__img">
+            </a>
+
+             <!-- portfolio item 04 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/portfolio-04.png" alt="" class="portfolio__img">
+            </a>
+
+             <!-- portfolio item 05 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/portfolio-05.png" alt="" class="portfolio__img">
+            </a>
+                        
+             <!-- portfolio item 06 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/portfolio-06.png" alt="" class="portfolio__img">
+            </a>
+            
+             <!-- portfolio item 07 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/portfolio-07.png" alt="" class="portfolio__img">
+            </a>
+            
+             <!-- portfolio item 08 -->
+             <a href="#" class="portfolio__item">
+                <img src="img/portfolio-08.png" alt="" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:nghuy31203@gmail.com" target="_blank" class="footer__link">nghuy31203@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.facebook.com/lolis312" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://zalo.me/0889966850" target="_blank">
+                    <img src="img/zalo.svg" alt="" class="social-list__zalo">
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/Huy31203" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
